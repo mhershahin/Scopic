@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">600149143830-rls8h3qo7m8ob1t88e67is9kt8c1mrpq.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">600149143830</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGc2Y5_geWplHz2qvWG-042THyEqScUlQ</string>
+    <string name="google_app_id" translatable="false">1:600149143830:android:2b0a09fb8542310f54e037</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGc2Y5_geWplHz2qvWG-042THyEqScUlQ</string>
+    <string name="google_storage_bucket" translatable="false">scopic-c801f.appspot.com</string>
+    <string name="project_id" translatable="false">scopic-c801f</string>
+</resources>
