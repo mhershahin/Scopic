@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_80"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/add_dialog_with"
+        android:layout_height="@dimen/add_dialog_height"
+        android:layout_marginBottom="@dimen/dialogs_margin_bottom"
+        android:padding="5dp"
+        android:background="@drawable/shape_dialog_background"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/letterCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:gravity="center"
+            android:padding="1dp"
+            android:paddingEnd="5dp"
+            android:text="0/40" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/addTitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/add_dialog_ed_height"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@color/white"
+            android:hint="@string/title"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="10dp"
+                >
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dialogAddCancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_cancle"
+                    android:gravity="center"
+                    android:text="@string/cancel" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/dialogAddOk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/shape_ok_disable"
+                    android:gravity="center"
+                    android:text="@string/ok"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Scopic</string>
+    <string name="sing_in">Sing In</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="your_password">Your Password</string>
+    <string name="have_an_account">Have an Account?</string>
+    <string name="welcome">Welcome</string>
+    <string name="nice_to_see">Hi there! Nice to see you.</string>
+    <string name="list">List</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    <string name="error">Error</string>
+    <string name="ok">Ok</string>
+    <string name="email_valid">Email isn\'t valid</string>
+    <string name="pass_valid">Password must be longer</string>
+    <string name="log_out">Log out</string>
+    <string name="cancel">cancel</string>
+    <string name="title">Title</string>
+</resources>
